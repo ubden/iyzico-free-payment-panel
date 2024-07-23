@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "iyzico/iyzipay-php",
+            "version": "v2.0.55",
+            "version_normalized": "2.0.55.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iyzico/iyzipay-php.git",
+                "reference": "4f6abcd1f4a1ec5db3f6d840e08cd57c910aeff2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iyzico/iyzipay-php/zipball/4f6abcd1f4a1ec5db3f6d840e08cd57c910aeff2",
+                "reference": "4f6abcd1f4a1ec5db3f6d840e08cd57c910aeff2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1"
+            },
+            "time": "2024-05-28T12:32:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Iyzipay\\": "src/Iyzipay/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iyzico and contributors",
+                    "homepage": "https://github.com/iyzico/iyzipay-php/contributors"
+                }
+            ],
+            "description": "iyzipay api php client",
+            "homepage": "https://www.iyzico.com",
+            "keywords": [
+                "iyzico",
+                "iyzico.com",
+                "iyzipay",
+                "iyzipay api",
+                "iyzipay api php",
+                "iyzipay api php client",
+                "iyzipay php",
+                "payment processing"
+            ],
+            "support": {
+                "issues": "https://github.com/iyzico/iyzipay-php/issues",
+                "source": "https://github.com/iyzico/iyzipay-php/tree/v2.0.55"
+            },
+            "install-path": "../iyzico/iyzipay-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
